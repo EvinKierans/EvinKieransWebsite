@@ -16,6 +16,15 @@ h1 {
     margin-left: 20%;
 }
 
+h2 {
+    text-align: CENTER;
+    font-family: Helvetica;
+    color: white;
+    letter-spacing: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
 header {
     background: rgba(169, 169, 169, 0.25);
     background-origin: content-box;
