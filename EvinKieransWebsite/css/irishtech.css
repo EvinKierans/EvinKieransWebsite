@@ -1,15 +1,20 @@
 body {
     background: black;
     position: relative;
-    width: 95%;
-    height: 100vh;
     background-image: url("images/irishtechgang.jpg");
-    background-position: 0% 10%;
-    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /*background-position: center;*/
     background-repeat: no-repeat;
+    background-size: cover;
     vertical-align: middle;
     opacity: 1;
     text-align: center;
+    }
+
+img {
+    padding: 10px;
 }
 
 .main_nav_container{
