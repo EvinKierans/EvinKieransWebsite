@@ -3,10 +3,6 @@ body {
     position: relative;
     background-image: url("images/poulshonebeach.jpg");
 
-    /* Set a specific height */
-    height: 100vh;
-    width: 100vh;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -20,6 +16,11 @@ img {
     margin-left: 10%;
     margin-top: 5%;
     align-items: "left";
+    height: 68.9vh;
+    width: 38.7vh;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
 }
 
 p{
@@ -48,16 +49,6 @@ h2 {
     margin-left: 15%;
 }
 
-header {
-    background: rgba(169, 169, 169, 0.25);
-    background-origin: content-box;
-    padding: 5px;
-    text-align: left;
-    font-size: 28px;
-    font-family: Helvetica;
-    color: white;
-}
-
 ul {
     list-style-type: none;
     font-size: 16px;
@@ -73,8 +64,8 @@ ul {
 .content_container{
     width: 100%;
     position: absolute;
-    top: 40%;
-    left: 60%;
+    top: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -93,30 +84,27 @@ ul {
 }
 
 .main_nav_container{
-    font-family: 'Moon_Bold';
-    color: inherit;
-    padding-top: 0.8vw;
-    cursor: default;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    align-items: center;
+	font-family: 'Moon_Bold';
+	color: inherit;
+	padding-top: 0.8vw;
+	cursor: default;
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 .main_nav_container a, .main_nav_container span{
-    font-size: 1.19vw;
-    color: white;
+font-size: 1.19vw;
 }
 .main_nav_container a{
-    display: block;
-    color: white;
-    cursor: pointer;
+display: block;
+cursor: pointer;
 }
 .main_nav_container a:hover{
-    opacity: 0.5;
+opacity: 0.5;
 }
 a {
 	display: inline-block;
@@ -126,5 +114,17 @@ a {
 	text-decoration: none;
 }
 li a:hover {
-    background-color: rgb(250, 245, 245);
+	background-color: rgb(250, 245, 245);
+}
+
+header {
+    background: rgba(169, 169, 169, 0.75);
+    background-origin: content-box;
+    padding: 5px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Helvetica;
+    color: white;
+    margin-right: 35%;
+    margin-left: 35%;
 }
